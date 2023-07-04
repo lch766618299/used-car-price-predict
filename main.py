@@ -258,7 +258,7 @@ sub.to_csv('./sub_Weighted.csv', index=False)
 
 
 ## Starking
-
+#详解（https://blog.csdn.net/youif/article/details/105078579?ops_request_misc=&request_id=&biz_id=102&utm_term=stacking&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-6-105078579.nonecase&spm=1018.2226.3001.4187）
 ## 第一层
 train_lgb_pred = model_lgb.predict(x_train)
 train_xgb_pred = model_xgb.predict(x_train)
